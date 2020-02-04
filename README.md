@@ -12,11 +12,15 @@ One creates the project in Redcap in the main language -for instance, english- a
 2. Call the function: 
 > translate_multilingual()
 3. The function will ask you to enter the path to the files you want to append. You can copy/paste it from the explorer. All characters "\" will be replaced by "/" automatically by the function.
-4. The function will then ask the list of languages to translate separated by spaces. This could be for instance "Greek English German".
+4. The function will then ask the list of languages to translate separated by spaces. This could be for instance:
+> Greek English German
 5. Then the function will ask for the files containing the translations for each one of these languages. One file name will be asked at a time. For instance: 
 > Language "Greek"Enter file name with extension:
+
 And one should enter the csv file name with its extension:
+
 > mygreekdatadic.csv
+
 6. The function will generate the data dictionnary in the same path as the one set as input. It will call it "translations_date.csv"
 7. Upload this file to Redcap
 ## Note
