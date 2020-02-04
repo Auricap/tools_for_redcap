@@ -25,7 +25,12 @@ And one should enter the csv file name with its extension:
 7. Upload this file to Redcap
 ## Note
 As the Multilingual External Module is not able to translate headers and matrix headers, the function will create a single string containing the name of the language set in step 4 and then the header translation. This will be done for all languages set in step 4. For instance, if the user set "FR EN ES" in step 4, the result of one example header will be:
+
 Header:
+
 FR: titre en français
+
 EN: english title
+
 ES: titulo en español 
+
