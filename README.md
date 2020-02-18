@@ -5,6 +5,7 @@ The file translations_vx.R includes a function that can be run in R to create a 
 The principle is the following:
 One creates the project in Redcap in the main language -for instance, english- and then downloads the data dictionnary (or creates the data dictionnary directly). Then one needs to copy this file as many times as desired languages and translate the columns "Field Label" (questions) and "Choices, Calculations, OR Slider Labels" (answers). One should save these files in the csv (Comma Separated Variable) format. Once this is done, one is ready to call the function "translate_multilingual()" that will take all the translations in the created files and combine them to generate the power tags necessary to add the translations in the redcap interface through the Multilingual External Module.
 ## Prerequisites
+- Install R or RStudio in the PC (code tested with RStudio Version 1.2.1335 and R version 3.5.3)
 - Install the Multilingual External Module in Redcap
 - Have the csv files (copies of the original data dictionnary) containing the translations
 ## Instructions
